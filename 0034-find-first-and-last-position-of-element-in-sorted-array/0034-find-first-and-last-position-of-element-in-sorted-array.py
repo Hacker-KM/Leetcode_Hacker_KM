@@ -4,6 +4,7 @@ class Solution:
         for i in range(len(nums)):
             if nums[i]==target:
                 l.append(i)
+        print(l)
         if len(l)>2:
             return [l[0],l[-1]]
         elif len(l)==2:
