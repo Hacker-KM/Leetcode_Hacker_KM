@@ -6,13 +6,11 @@ class Solution:
        #Write your code here
        l,r,total=0,0,0
 
-       while r<n:
+       while r<n and l<=r:
 
            total+=arr[r]
 
-           if total==s:
 
-               return [l+1,r+1]
 
            while total>s:
 
